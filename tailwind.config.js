@@ -1,18 +1,61 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './components/**/**/*.{js,ts,jsx,tsx}',
+
+    // Or if using `src` directory:
+    './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+    colors: {
+      cyan: '#20C4D8',
+      green: '#1FC796',
+      yellow: '#F2BC53',
+      blue: '#5D79CA',
+      whiteDarkest: '#21314A',
+      whiteDarker: '#2B374F',
+      whiteDark: '#5A6477',
+      white: '#FFFFFF',
+      whiteInherit: '#ffffff0d',
+      InheritForInput: '#202d46',
+      whiteInheriter: '#202D46',
+      whiteInheritLess: '#ffffff1d',
+      dark: '#14223C',
+      red: '#FF375B',
     },
+    screens: {
+      pc360: '360px',
+      pc390: '390px',
+      pc400: '400px',
+      pc410: '410px',
+      pc442: '442px',
+      pc460: '460px',
+      pc500: '500px',
+      pc540: '540px',
+      pc600: '600px',
+      pc630: '630px',
+      pc720: '720px',
+      pc740: '740px',
+      pc743: '743px',
+      pc750: '750px',
+      pc820: '820px',
+      pc850: '850px',
+      pc885: '885px',
+      pc900: '900px',
+      pc940: '940px',
+      pc960: '960px',
+      pc990: '990px',
+      pc1024: '1024px',
+    },
+    fontFamily: {
+      orb: ['Orbitron', 'sans-serif'],
+      play: ['Play', 'sans-serif'],
+    },
+
+    extend: {},
   },
   plugins: [],
-}
+};

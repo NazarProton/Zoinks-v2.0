@@ -1,0 +1,181 @@
+{
+  "networkInfo": {
+    "defaultChainId": "31337",
+    "defaultAddress": "0x",
+    "devNetUrl": "https://hh.zoinks.fi",
+    "confirmationsToWait": 1,
+    "zoinksMainStatisticsApiUrl": "https://zoinks.fi/api/statistic/main",
+    "zoinksZoinksStatisticsApiUrl": "https://zoinks.fi/api/statistic/zoinks",
+    "zoinksSnacksStatisticsApiUrl": "https://zoinks.fi/api/statistic/snacks",
+    "dataDomainUpdateInterval": 10000
+  },
+  "feesInfo": {
+    "snacksMint": 500,
+    "snacksRedeem": 1000,
+    "seniorageNormalDivider": 10,
+    "senioragePennyDivider": 2,
+    "base": 10000
+  },
+  "contractsInfo": {
+    "Zoinks": {
+      "address": {
+        "31337": "0xee9756bc8ad4dc17bfcdb8a47f918d551a37539d",
+        "56": "0x270C82a9A5958C55d460E33C5a64eb7e31Ed3CB2",
+        "97": "0xf5D73f4DA8008d325FcFF58750e673FCAB743101"
+      },
+      "abi": "Zoinks"
+    },
+    "Pulse": {
+      "address": {
+        "31337": "0x4ce4638594db941fbdb17e6352178e59c53dd222",
+        "56": "0x4EacD23a04DA5abc757993Eb2a6a44C320D93e88",
+        "97": "0x08e49207Fbc57908070aA3E04F55730A82D24007"
+      },
+      "abi": "Pulse"
+    },
+    "Snacks": {
+      "address": {
+        "31337": "0x0725af1330f2254d0a69312cf651edeec6c3f247",
+        "56": "0xEF8ac74722eE2f0766c42a27A9Ea16B042bf3c9e",
+        "97": "0xB4Dac7653BE421992D5357b7F81De654819972fB"
+      },
+      "abi": "Snacks"
+    },
+    "BtcSnacks": {
+      "address": {
+        "31337": "0xfc110fe90553e5cad507527e7ad5445635b68940",
+        "56": "0x5ab0b7B2562FB564C8Ec0Fa5d6c20A7D8c0307ac",
+        "97": "0x2E3f9E190B25A03722708Aea690F5527110388e4"
+      },
+      "abi": "BtcSnacks"
+    },
+    "EthSnacks": {
+      "address": {
+        "31337": "0x95ddc054ece45311ea7e1964784235974a59547e",
+        "56": "0xfBea35F9596788DD28c119C3817302461ad73700",
+        "97": "0xa5bf4da1e12E7534a46EEEAFe0809Fd9724ec197"
+      },
+      "abi": "EthSnacks"
+    },
+    "PancakeSwapRouter": {
+      "address": {
+        "31337": "0x10ed43c718714eb63d5aa57b78b54704e256024e",
+        "56": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+        "97": "0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3"
+      },
+      "abi": "IRouter"
+    },
+    "ApeSwapRouter": {
+      "address": {
+        "31337": "0xcf0febd3f17cef5b47b0cd257acf6025c5bff3b7",
+        "56": "0xcf0febd3f17cef5b47b0cd257acf6025c5bff3b7",
+        "97": "0x"
+      },
+      "abi": "IRouter"
+    },
+    "BiSwapRouter": {
+      "address": {
+        "31337": "0x3a6d8ca21d1cf76f653a67577fa0d27453350dd8",
+        "56": "0x3a6d8ca21d1cf76f653a67577fa0d27453350dd8",
+        "97": "0x"
+      },
+      "abi": "IRouter"
+    },
+    "BUSD": {
+      "address": {
+        "31337": "0x3c8c0a49a45a46a147eba2f9867166f2cd89e595",
+        "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+        "97": "0x0a8F31595a05823f73E4a0a3302d585cbcE903B9"
+      },
+      "abi": "IERC20"
+    },
+    "BTC": {
+      "address": {
+        "31337": "0x1de41fa1a87e612ef2466fca03ec5e26c9d560c9",
+        "56": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "97": "0xAB5D9F62cdD9473284C7B7DF13A8C711D23fC296"
+      },
+      "abi": "IERC20"
+    },
+    "ETH": {
+      "address": {
+        "31337": "0xb9532dd51242a977a7e7526f78484fb35d58f811",
+        "56": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "97": "0xb894a97c25D75efF4A38634e1b64EF4DA3Ce295b"
+      },
+      "abi": "IERC20"
+    },
+    "PancakeSwapPool": {
+      "address": {
+        "31337": "0x8f80853cef490f3094d677ff02e03fc8ed90b6f4",
+        "56": "0x463E5F5165A624F6D1669A710A7161DB2760E178",
+        "97": "0x56C8b0eaD765C497c49b48fcBbcecbb215D003EC"
+      },
+      "abi": "PancakeSwapPool"
+    },
+    "SnacksPool": {
+      "address": {
+        "31337": "0xa982aae8de9ff1695f206d7514c489ff6d9b35a3",
+        "56": "0x7F8190F354aCCee0057514150891455beBf2A17d",
+        "97": "0xA41149F38e6E31D6457c3DC56B6AEEFe69e703D7"
+      },
+      "abi": "SnacksPool"
+    },
+    "ApeSwapPool": {
+      "address": {
+        "31337": "0x86b7e3df7c5a363ff81fff2868d1d3ad1cfd50dc",
+        "56": "0x5Fe45D964e76B8C9be9B24210146982Df5BA702E",
+        "97": "0xEDe7E41b6e2d8048D809a4fc0d389D3f1941E954"
+      },
+      "abi": "ApeSwapPool"
+    },
+    "BiSwapPool": {
+      "address": {
+        "31337": "0xaf2862349eefe49fd4ba21745fe3e51770249ef5",
+        "56": "0xB32BF359e892Ab646c1b4C3d56dE2Ad110E3c55e",
+        "97": "0x1D48FBb556e0F1b0E9D4C8e340425e7D5c08aff0"
+      },
+      "abi": "BiSwapPool"
+    },
+    "LunchBox": {
+      "address": {
+        "31337": "0x2fca1ca14b01a5d915e3b529c59d99bf43fba06f",
+        "56": "0x3A494B5B93f255Bfe780E3c2d63dc42C40615469",
+        "97": "0x25f3d460Aa71CB8D81e82A22099C4EB1d5F18a8a"
+      },
+      "abi": "LunchBox"
+    },
+    "ApeLP": {
+      "address": {
+        "31337": "0xbfbd97d47cd70de4b631c9b921590abc477f017d",
+        "56": "0xF75aCe52a422b4955229ca5271b42ACb904D09B6",
+        "97": "0x"
+      },
+      "abi": "IERC20"
+    },
+    "BiLP": {
+      "address": {
+        "31337": "0x3f65259af0b9c1610b78fa38ae19eb704c24ba48",
+        "56": "0x790AC89024Ee2a8bC98a981A99C89c3bb71D788e",
+        "97": "0x"
+      },
+      "abi": "IERC20"
+    },
+    "PancakeLP": {
+      "address": {
+        "31337": "0x42af9a6e2b9a47a18d213b7027ead941ff49fd5a",
+        "56": "0xa0682275F190A4aFF1D572E2f74A431A9D89b420",
+        "97": "0x"
+      },
+      "abi": "IERC20"
+    },
+      "HoldingFeeDistributor": {
+      "address": {
+        "31337": "0xf7150b59283aba7bc7278da059b102c894b369c9",
+        "56": "0xDB90f999A8DD48192c2E98e4dC843a527f57d06A",
+        "97": "0x"
+      },
+      "abi": "HoldingFeeDistributor"
+    }
+  }
+}

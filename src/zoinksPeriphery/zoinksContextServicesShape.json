@@ -1,0 +1,29 @@
+{
+  "defaultAbis": {},
+  "profile": {},
+  "statistics": {
+    "apeCharts": {},
+    "pancakeCharts": {},
+    "biCharts": {},
+    "general": {}
+  },
+  "cao": {
+    "zoinks": {},
+    "snacks": {},
+    "btcSnacks": {},
+    "ethSnacks": {},
+    "lunchBox": {},
+    "pancakeSwapRouter": {},
+    "apeSwapRouter": {},
+    "biSwapRouter": {},
+    "snacksPool": {},
+    "pancakeSwapPool": {},
+    "apeSwapPool": {},
+    "biSwapPool": {},
+    "pancakeRouter": {},
+    "apeRouter": {},
+    "biRouter": {},
+    "pulse": {},
+    "tokens": {}
+  }
+}
